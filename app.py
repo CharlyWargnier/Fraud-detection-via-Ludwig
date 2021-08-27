@@ -295,7 +295,8 @@ with open(ZipfileDotZip, "rb") as f:
 st.markdown(href, unsafe_allow_html=True)
 
 # os.chdir("C:/Users/Charly/Desktop/LudwigNew")
-os.chdir("C:/Users/Charly/Desktop/Fraud_Detect_Ludwig")
+# hashed local directory
+# os.chdir("C:/Users/Charly/Desktop/Fraud_Detect_Ludwig")
 
 cwd = os.getcwd()
 cwd
