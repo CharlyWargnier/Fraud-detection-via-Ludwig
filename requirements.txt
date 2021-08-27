@@ -1,5 +1,6 @@
 petastorm
 streamlit
+extra_streamlit_components
 ludwig
 seaborn
 matplotlib
