@@ -1,0 +1,7 @@
+petastorm
+streamlit
+ludwig
+seaborn
+matplotlib
+tensorflow==2.3.1
+tensorflow-estimator==2.3.0
