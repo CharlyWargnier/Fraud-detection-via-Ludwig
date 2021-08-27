@@ -39,7 +39,9 @@ st.set_page_config(
 )
 
 
-os.chdir("C:/Users/Charly/Desktop/Fraud_Detect_Ludwig")
+# hashed local directory
+# os.chdir("C:/Users/Charly/Desktop/Fraud_Detect_Ludwig")
+
 cwd = os.getcwd()
 # cwd
 
