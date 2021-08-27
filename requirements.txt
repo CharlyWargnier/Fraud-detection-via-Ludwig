@@ -1,5 +1,5 @@
 petastorm
-streamlit
+streamlit==0.81.0
 extra_streamlit_components
 ludwig
 seaborn
