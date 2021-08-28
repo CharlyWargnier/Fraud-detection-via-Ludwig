@@ -43,7 +43,9 @@ st.set_page_config(
 # os.chdir("C:/Users/Charly/Desktop/Fraud_Detect_Ludwig")
 
 cwd = os.getcwd()
-# cwd
+cwd
+
+st.stop()
 
 # stepper_bar
 
