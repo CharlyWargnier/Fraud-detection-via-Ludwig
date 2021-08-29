@@ -41,7 +41,9 @@ st.set_page_config(
 
 os.chdir("/app/fraud-detection-via-ludwig/")
 cwd = os.getcwd()
-# cwd
+cwd
+
+st.stop()
 
 # stepper_bar
 
