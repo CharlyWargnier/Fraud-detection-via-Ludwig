@@ -351,9 +351,12 @@ with open(latest_file) as f:
 fig = visualize.learning_curves(
     [data],
     # output_directory="C:/Users/Charly/Desktop/LudwigNew/Images/LudwigImages",
-    output_directory="/app/fraud-detection-via-ludwig/Images/LudwigImages",
+    # output_directory="/app/fraud-detection-via-ludwig/Images/LudwigImages",
+    output_directory="/app/fraud-detection-via-ludwig/Images",
     file_format="png",
 )
+
+
 
 # st.pyplot(fig, clear_figure=False)
 # c1, c2 = st.beta_columns(2)
