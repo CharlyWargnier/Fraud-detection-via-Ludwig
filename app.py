@@ -353,10 +353,12 @@ fig = visualize.learning_curves(
     # output_directory="C:/Users/Charly/Desktop/LudwigNew/Images/LudwigImages",
     # output_directory="/app/fraud-detection-via-ludwig/Images/LudwigImages",
     # output_directory="/app/fraud-detection-via-ludwig/Images",
-    output_directory="/output_directory",
+    output_directory="/test",
     file_format="png",
 )
 
+
+output_directory
 
 st.image(
     "test/test.gif",
@@ -377,7 +379,7 @@ os.listdir()
 # "/app/fraud-detection-via-ludwig/Images/LudwigImages"
 
 st.image(
-    "/learning_curves_isfraud_accuracy.png",
+    "test/learning_curves_isfraud_accuracy.png",
     use_column_width=True,
 )
 
