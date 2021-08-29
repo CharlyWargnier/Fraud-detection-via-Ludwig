@@ -358,6 +358,13 @@ fig = visualize.learning_curves(
 )
 
 
+st.image(
+    "test/test.gif",
+    use_column_width=True,
+)
+
+st.stop()
+
 os.listdir() 
 
 # st.pyplot(fig, clear_figure=False)
@@ -370,7 +377,7 @@ os.listdir()
 # "/app/fraud-detection-via-ludwig/Images/LudwigImages"
 
 st.image(
-    "learning_curves_isfraud_accuracy.png",
+    "/learning_curves_isfraud_accuracy.png",
     use_column_width=True,
 )
 
