@@ -39,7 +39,9 @@ st.set_page_config(
 )
 
 
-os.chdir("/app/fraud-detection-via-ludwig/")
+# hashed local directory
+# os.chdir("C:/Users/Charly/Desktop/Fraud_Detect_Ludwig")
+
 cwd = os.getcwd()
 # cwd
 
@@ -49,7 +51,7 @@ st.title("💳 Credit Card Fraud Detector")
 # df = pd.read_csv("creditcard.csv")
 
 # st.caption("Dataset: https://bit.ly/3D92jJ3 | Article: https://bit.ly/3mulZkn")
-#
+# 
 st.caption(
     "PRD: https://bit.ly/3gutmVr | Dataset: https://bit.ly/3D92jJ3 | Article: https://bit.ly/3mulZkn"
 )
@@ -293,7 +295,8 @@ with open(ZipfileDotZip, "rb") as f:
 st.markdown(href, unsafe_allow_html=True)
 
 # os.chdir("C:/Users/Charly/Desktop/LudwigNew")
-os.chdir("/app/fraud-detection-via-ludwig/")
+# hashed local directory
+# os.chdir("C:/Users/Charly/Desktop/Fraud_Detect_Ludwig")
 
 cwd = os.getcwd()
 cwd
@@ -347,7 +350,7 @@ with open(latest_file) as f:
 fig = visualize.learning_curves(
     [data],
     # output_directory="C:/Users/Charly/Desktop/LudwigNew/Images/LudwigImages",
-    output_directory="/app/fraud-detection-via-ludwig/Images/LudwigImages",
+    output_directory="C:/Users/Charly/Desktop/Fraud_Detect_Ludwig/Images/LudwigImages",
     file_format="png",
 )
 
