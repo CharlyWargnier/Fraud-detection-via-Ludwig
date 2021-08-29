@@ -43,6 +43,8 @@ os.chdir("/app/fraud-detection-via-ludwig/")
 cwd = os.getcwd()
 cwd
 
+[x[0] for x in os.walk(cwd)]
+
 # st.stop()
 
 # stepper_bar
@@ -352,7 +354,6 @@ fig = visualize.learning_curves(
     output_directory="/app/fraud-detection-via-ludwig/Images/LudwigImages",
     file_format="png",
 )
-
 
 # st.pyplot(fig, clear_figure=False)
 # c1, c2 = st.beta_columns(2)
