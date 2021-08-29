@@ -353,7 +353,7 @@ fig = visualize.learning_curves(
     # output_directory="C:/Users/Charly/Desktop/LudwigNew/Images/LudwigImages",
     # output_directory="/app/fraud-detection-via-ludwig/Images/LudwigImages",
     # output_directory="/app/fraud-detection-via-ludwig/Images",
-    output_directory="/",
+    output_directory="/output_directory",
     file_format="png",
 )
 
