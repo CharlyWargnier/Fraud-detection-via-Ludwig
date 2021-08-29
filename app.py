@@ -43,7 +43,7 @@ os.chdir("/app/fraud-detection-via-ludwig/")
 cwd = os.getcwd()
 cwd
 
-st.stop()
+# st.stop()
 
 # stepper_bar
 
