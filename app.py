@@ -368,9 +368,10 @@ fig = visualize.learning_curves(
 # "/app/fraud-detection-via-ludwig/Images/LudwigImages"
 
 st.image(
-    "/app/fraud-detection-via-ludwig/Images/LudwigImages/learning_curves_isfraud_accuracy.png",
+    "/LudwigImages/learning_curves_isfraud_accuracy.png",
     use_column_width=True,
 )
+
 
 # # with c1:
 # st.image(
