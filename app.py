@@ -365,27 +365,30 @@ fig = visualize.learning_curves(
 
 # with st.beta_expander("📝 - Roadmap TO-DO'S TRAINING TAB", expanded=True):
 
+"/app/fraud-detection-via-ludwig/Images/LudwigImages"
+
 st.image(
-    "Images/LudwigImages/learning_curves_isfraud_accuracy.png",
-    use_column_width=True,
-)
-# with c1:
-st.image(
-    "Images/LudwigImages/learning_curves_isfraud_loss.png",
+    "/app/fraud-detection-via-ludwig/Images/LudwigImages/learning_curves_isfraud_accuracy.png",
     use_column_width=True,
 )
 
-# c1, c2 = st.beta_columns(2)
-# with c1:
-st.image(
-    "Images/LudwigImages/learning_curves_isfraud_hits_at_k.png",
-    use_column_width=True,
-)
-# with c1:
-st.image(
-    "Images/LudwigImages/learning_curves_combined_loss.png",
-    use_column_width=True,
-)
+# # with c1:
+# st.image(
+#     "/app/fraud-detection-via-ludwig/Images/LudwigImages/learning_curves_isfraud_loss.png",
+#     use_column_width=True,
+# )
+# 
+# # c1, c2 = st.beta_columns(2)
+# # with c1:
+# st.image(
+#     "/app/fraud-detection-via-ludwig/Images/LudwigImages/learning_curves_isfraud_hits_at_k.png",
+#     use_column_width=True,
+# )
+# # with c1:
+# st.image(
+#     "Images/LudwigImages/learning_curves_combined_loss.png",
+#     use_column_width=True,
+# )
 
 # st.pyplot()
 # Needs more parameters
